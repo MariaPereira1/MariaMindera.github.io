@@ -1,0 +1,55 @@
+p.paragraf{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+p.information {
+    font-family: "Gill Sans", sans-serif;
+}
+
+header.page-header {
+    background: no-repeat left/cover url(./puppy-header-logo.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+    text-align: center;
+    text-justify: auto;
+}
+
+header.page-header > h1 {
+    font: bold calc(3em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+    vertical-align: middle;
+    margin: auto;
+}
+
+body {
+    background-color: #d7dece;
+    
+}
+
+p {
+    margin: 2px 30px 2px 30px;
+    
+}
+
+figure.image-index {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    height: 300px;
+    width: 230px;
+    margin: auto;
+}
+
+figure.image-index > img {
+    height: 300px;
+    width: 230px;
+}
+
+figcaption {
+    margin: 5px;
+}
